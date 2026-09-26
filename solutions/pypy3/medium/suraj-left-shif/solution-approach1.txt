@@ -1,0 +1,15 @@
+# ──────────────────────────────────────────────────
+# Link        https://www.hackerrank.com/contests/itc-basic-coding/challenges/suraj-left-shif/problem?isFullScreen=true
+# Problem     Suraj  left shift
+# Difficulty  Medium
+# Subdomain   N/A
+# Platform    HackerRank
+# Language    pypy3
+# Status      Accepted
+# Submitted   2026-09-26, 02:07 p.m.
+# ──────────────────────────────────────────────────
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+s=input()
+result=s[1:]+s[0]
+print(result)
